@@ -1,0 +1,36 @@
+{
+  "name": "branch-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool that allows manipulation of local git repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "bin": {
+    "branch": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/node-branch-cli.git"
+  },
+  "keywords": [
+    "local",
+    "git",
+    "branch",
+    "status",
+    "current"
+  ],
+  "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyism/node-branch-cli/issues"
+  },
+  "homepage": "https://github.com/joeyism/node-branch-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "git-lib": "^1.3.2",
+    "inquirer": "^0.9.0",
+    "q": "^1.4.1",
+    "xcept": "^1.0.0"
+  }
+}
