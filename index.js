@@ -4,7 +4,7 @@ var git = require("git-lib");
 var command = require("./lib/command");
 var showBranchAndFiles = require("./lib/showBranchAndFiles");
 var params = process.argv;
-var instruct = params[2];
+var instruct = params[2] || "";
 require("colors");
 
 git.isGit().then(function(){
