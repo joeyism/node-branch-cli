@@ -12,7 +12,7 @@ In your command line prompt, if you type
 
     > branch
 
-It will display the current branch status, including branch name and files to be committed.
+It will display the current branch status, including branch name, files that has been modified but added nor committed, and files that has been added but not committed.
 
 ### Delete
 In your command line prompt, if you type
@@ -29,6 +29,9 @@ A list of branches will display, excluding the one you are currently on. An exam
 By pressing [Space], you can select or deselect branches. Then press [Enter] to delete branches.
 
 ## Versions
+**1.1.0**
+* Showing files that has been added and/or committed
+
 **1.0.0**
 * First working version
 
